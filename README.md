@@ -48,6 +48,13 @@ evaluation results.
 ## 6. Observations
 
 The five classification algorithms were evaluated using six performance metrics: Accuracy, AUC, Precision, Recall, F1 Score and Matthews Correlation Coefficient (MCC).
+| ML Model               |   Accuracy |        AUC |  Precision |     Recall |         F1 |        MCC |
+| ---------------------- | ---------: | ---------: | ---------: | ---------: | ---------: | ---------: |
+| Logistic Regression    |     0.9207 |     0.9934 |     0.9215 |     0.9207 |     0.9209 |     0.9042 |
+| Decision Tree          |     0.8917 |     0.9330 |     0.8912 |     0.8917 |     0.8913 |     0.8691 |
+| KNN                    |     0.9166 |     0.9812 |     0.9174 |     0.9166 |     0.9168 |     0.8992 |
+| Naive Bayes            |     0.7639 |     0.9644 |     0.7654 |     0.7639 |     0.7615 |     0.7154 |
+| Support Vector Machine | **0.9221** | **0.9937** | **0.9224** | **0.9221** | **0.9222** | **0.9059** |
 
 The following observations were derived from the experimental results:
 
