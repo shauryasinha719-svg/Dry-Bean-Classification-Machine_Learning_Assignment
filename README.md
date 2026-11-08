@@ -47,13 +47,35 @@ evaluation results.
 
 ## 6. Observations
 
-Observations will be based on the actual
-performance of all five classification models.
+The five classification algorithms were evaluated using six performance metrics: Accuracy, AUC, Precision, Recall, F1 Score and Matthews Correlation Coefficient (MCC).
+
+The following observations were derived from the experimental results:
+
+Support Vector Machine (SVM): Achieved the highest overall performance with 92.21% accuracy and an AUC of 99.37%. It also recorded the highest Precision (92.24%), Recall (92.21%), F1 Score (92.22%) and MCC (0.9059).
+Logistic Regression: Demonstrated performance comparable to SVM, achieving 92.07% accuracy and 99.34% AUC. This indicates that Logistic Regression is also highly effective for classifying dry bean varieties.
+K-Nearest Neighbours (KNN): Achieved 91.66% accuracy and 98.12% AUC, demonstrating strong classification capabilities based on the similarity between observations.
+Decision Tree: Recorded 89.17% accuracy and 93.30% AUC. Although its performance was lower than the first three algorithms, it provided reasonably good classification results.
+Gaussian Naive Bayes: Achieved 76.39% accuracy and 96.44% AUC. It recorded the lowest accuracy among the five algorithms, indicating comparatively weaker classification performance.
+
+Overall, SVM and Logistic Regression demonstrated the strongest classification performance, while Naive Bayes recorded the lowest accuracy.
 
 ## 7. Overall Winner
 
-The best-performing model will be selected
-after comparing all six evaluation metrics.
+Support Vector Machine (SVM) was identified as the best-performing classification algorithm.
+
+It achieved the highest values across all six evaluation metrics:
+
+Evaluation Metric	SVM Performance
+Accuracy	92.21%
+AUC	99.37%
+Precision	92.24%
+Recall	92.21%
+F1 Score	92.22%
+MCC	0.9059
+
+SVM marginally outperformed Logistic Regression, with an accuracy advantage of 0.14 percentage points.
+
+Its consistently superior performance across all six metrics makes it the preferred model for the Dry Bean Classification problem.
 
 ## 8. Streamlit Application
 
